@@ -6,7 +6,9 @@
 //  Copyright © 2016 Elias Farhan. All rights reserved.
 //
 
-#include "Characters.hpp"
+#include "Characters.h"
+#include "Hero.h"
+#include "Monster.h"
 
 //////////Character////////////
 
@@ -14,7 +16,7 @@ Character::Character(int health, int attack, int defense, int strength)
 {
     this->health = health;
     this->attack = attack;
-this->defense = defense;
+    this->defense = defense;
     this->strength = strength;
 }
 
